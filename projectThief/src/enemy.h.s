@@ -1,0 +1,12 @@
+.globl enemy_copy
+.globl create_enemy
+.globl runFunconEnemyVector
+.globl initEnemyEnvironment
+.globl enemy_update
+.globl enemy1_update
+.globl check_collision
+.globl resetEnemies
+.globl edit_enemy
+.globl respawnEnemy
+.globl enemy_draw
+.globl im_enemy

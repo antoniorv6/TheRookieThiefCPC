@@ -1,0 +1,1 @@
+.globl draw_animation

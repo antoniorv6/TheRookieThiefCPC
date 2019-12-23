@@ -1,0 +1,2053 @@
+#include "tileset.h"
+// Data created with Img2CPC - (c) Retroworks - 2007-2017
+u8* const tileset[256] = { 
+	room_tileset_000, room_tileset_001, room_tileset_002, room_tileset_003, room_tileset_004, room_tileset_005, room_tileset_006, room_tileset_007, room_tileset_008, room_tileset_009, room_tileset_010, room_tileset_011, room_tileset_012, room_tileset_013, room_tileset_014, room_tileset_015, room_tileset_016, room_tileset_017, room_tileset_018, room_tileset_019, room_tileset_020, room_tileset_021, room_tileset_022, room_tileset_023, room_tileset_024, room_tileset_025, room_tileset_026, room_tileset_027, room_tileset_028, room_tileset_029, room_tileset_030, room_tileset_031, room_tileset_032, room_tileset_033, room_tileset_034, room_tileset_035, room_tileset_036, room_tileset_037, room_tileset_038, room_tileset_039, room_tileset_040, room_tileset_041, room_tileset_042, room_tileset_043, room_tileset_044, room_tileset_045, room_tileset_046, room_tileset_047, room_tileset_048, room_tileset_049, room_tileset_050, room_tileset_051, room_tileset_052, room_tileset_053, room_tileset_054, room_tileset_055, room_tileset_056, room_tileset_057, room_tileset_058, room_tileset_059, room_tileset_060, room_tileset_061, room_tileset_062, room_tileset_063, room_tileset_064, room_tileset_065, room_tileset_066, room_tileset_067, room_tileset_068, room_tileset_069, room_tileset_070, room_tileset_071, room_tileset_072, room_tileset_073, room_tileset_074, room_tileset_075, room_tileset_076, room_tileset_077, room_tileset_078, room_tileset_079, room_tileset_080, room_tileset_081, room_tileset_082, room_tileset_083, room_tileset_084, room_tileset_085, room_tileset_086, room_tileset_087, room_tileset_088, room_tileset_089, room_tileset_090, room_tileset_091, room_tileset_092, room_tileset_093, room_tileset_094, room_tileset_095, room_tileset_096, room_tileset_097, room_tileset_098, room_tileset_099, room_tileset_100, room_tileset_101, room_tileset_102, room_tileset_103, room_tileset_104, room_tileset_105, room_tileset_106, room_tileset_107, room_tileset_108, room_tileset_109, room_tileset_110, room_tileset_111, room_tileset_112, room_tileset_113, room_tileset_114, room_tileset_115, room_tileset_116, room_tileset_117, room_tileset_118, room_tileset_119, room_tileset_120, room_tileset_121, room_tileset_122, room_tileset_123, room_tileset_124, room_tileset_125, room_tileset_126, room_tileset_127, room_tileset_128, room_tileset_129, room_tileset_130, room_tileset_131, room_tileset_132, room_tileset_133, room_tileset_134, room_tileset_135, room_tileset_136, room_tileset_137, room_tileset_138, room_tileset_139, room_tileset_140, room_tileset_141, room_tileset_142, room_tileset_143, room_tileset_144, room_tileset_145, room_tileset_146, room_tileset_147, room_tileset_148, room_tileset_149, room_tileset_150, room_tileset_151, room_tileset_152, room_tileset_153, room_tileset_154, room_tileset_155, room_tileset_156, room_tileset_157, room_tileset_158, room_tileset_159, room_tileset_160, room_tileset_161, room_tileset_162, room_tileset_163, room_tileset_164, room_tileset_165, room_tileset_166, room_tileset_167, room_tileset_168, room_tileset_169, room_tileset_170, room_tileset_171, room_tileset_172, room_tileset_173, room_tileset_174, room_tileset_175, room_tileset_176, room_tileset_177, room_tileset_178, room_tileset_179, room_tileset_180, room_tileset_181, room_tileset_182, room_tileset_183, room_tileset_184, room_tileset_185, room_tileset_186, room_tileset_187, room_tileset_188, room_tileset_189, room_tileset_190, room_tileset_191, room_tileset_192, room_tileset_193, room_tileset_194, room_tileset_195, room_tileset_196, room_tileset_197, room_tileset_198, room_tileset_199, room_tileset_200, room_tileset_201, room_tileset_202, room_tileset_203, room_tileset_204, room_tileset_205, room_tileset_206, room_tileset_207, room_tileset_208, room_tileset_209, room_tileset_210, room_tileset_211, room_tileset_212, room_tileset_213, room_tileset_214, room_tileset_215, room_tileset_216, room_tileset_217, room_tileset_218, room_tileset_219, room_tileset_220, room_tileset_221, room_tileset_222, room_tileset_223, room_tileset_224, room_tileset_225, room_tileset_226, room_tileset_227, room_tileset_228, room_tileset_229, room_tileset_230, room_tileset_231, room_tileset_232, room_tileset_233, room_tileset_234, room_tileset_235, room_tileset_236, room_tileset_237, room_tileset_238, room_tileset_239, room_tileset_240, room_tileset_241, room_tileset_242, room_tileset_243, room_tileset_244, room_tileset_245, room_tileset_246, room_tileset_247, room_tileset_248, room_tileset_249, room_tileset_250, room_tileset_251, room_tileset_252, room_tileset_253, room_tileset_254, room_tileset_255
+};
+// Tile room_tileset_000: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_000[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x42,
+	0x11, 0x03,
+	0x01, 0xc0
+};
+
+// Tile room_tileset_001: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_001[2 * 4] = {
+	0x42, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_002: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_002[2 * 4] = {
+	0x40, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x62
+};
+
+// Tile room_tileset_003: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_003[2 * 4] = {
+	0xc0, 0x00,
+	0xc0, 0x00,
+	0xc0, 0x40,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_004: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_004[2 * 4] = {
+	0x00, 0x23,
+	0x13, 0x42,
+	0x03, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_005: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_005[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_006: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_006[2 * 4] = {
+	0x00, 0xfc,
+	0x54, 0xfc,
+	0x54, 0xfc,
+	0x54, 0xfc
+};
+
+// Tile room_tileset_007: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_007[2 * 4] = {
+	0xfc, 0x00,
+	0xfc, 0x00,
+	0x76, 0x00,
+	0xa8, 0x00
+};
+
+// Tile room_tileset_008: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_008[2 * 4] = {
+	0x00, 0x01,
+	0x33, 0x42,
+	0x03, 0x42,
+	0x23, 0xc0
+};
+
+// Tile room_tileset_009: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_009[2 * 4] = {
+	0x42, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_010: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_010[2 * 4] = {
+	0x40, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x62
+};
+
+// Tile room_tileset_011: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_011[2 * 4] = {
+	0xc0, 0x00,
+	0xc0, 0x40,
+	0xc0, 0x40,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_012: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_012[2 * 4] = {
+	0x00, 0x01,
+	0x03, 0xc0,
+	0x42, 0xc0,
+	0x42, 0xc0
+};
+
+// Tile room_tileset_013: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_013[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_014: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_014[2 * 4] = {
+	0x40, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0x91, 0xc0
+};
+
+// Tile room_tileset_015: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_015[2 * 4] = {
+	0xc0, 0x00,
+	0xc0, 0x00,
+	0xc0, 0x00,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_016: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_016[2 * 4] = {
+	0x40, 0xc0,
+	0x40, 0xc0,
+	0x01, 0xc0,
+	0x00, 0xc0
+};
+
+// Tile room_tileset_017: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_017[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_018: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_018[2 * 4] = {
+	0xc0, 0x91,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_019: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_019[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_020: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_020[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x81,
+	0x40, 0x00
+};
+
+// Tile room_tileset_021: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_021[2 * 4] = {
+	0x80, 0x02,
+	0x02, 0x00,
+	0x00, 0xa8,
+	0x54, 0xfc
+};
+
+// Tile room_tileset_022: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_022[2 * 4] = {
+	0x54, 0xa8,
+	0xa8, 0x00,
+	0x00, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_023: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_023[2 * 4] = {
+	0xfc, 0x00,
+	0x00, 0x00,
+	0x40, 0x80,
+	0x40, 0x80
+};
+
+// Tile room_tileset_024: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_024[2 * 4] = {
+	0x42, 0xc0,
+	0xc0, 0xc0,
+	0x40, 0xc0,
+	0x40, 0xc0
+};
+
+// Tile room_tileset_025: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_025[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_026: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_026[2 * 4] = {
+	0xc0, 0x91,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_027: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_027[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_028: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_028[2 * 4] = {
+	0xc0, 0xc0,
+	0x01, 0xc0,
+	0x00, 0xc0,
+	0x40, 0xc0
+};
+
+// Tile room_tileset_029: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_029[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_030: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_030[2 * 4] = {
+	0xc0, 0x91,
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_031: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_031[2 * 4] = {
+	0xc0, 0x80,
+	0xc0, 0x80,
+	0xc0, 0x80,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_032: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_032[2 * 4] = {
+	0x00, 0x40,
+	0x40, 0xc0,
+	0x40, 0xc0,
+	0x40, 0xc0
+};
+
+// Tile room_tileset_033: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_033[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_034: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_034[2 * 4] = {
+	0xc0, 0x40,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_035: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_035[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_036: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_036[2 * 4] = {
+	0xc0, 0x54,
+	0xc0, 0x00,
+	0x00, 0x80,
+	0xc0, 0x40
+};
+
+// Tile room_tileset_037: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_037[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0x76,
+	0x00, 0xb9
+};
+
+// Tile room_tileset_038: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_038[2 * 4] = {
+	0xfc, 0x76,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_039: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_039[2 * 4] = {
+	0x40, 0x80,
+	0x40, 0x80,
+	0x40, 0x80,
+	0x00, 0x80
+};
+
+// Tile room_tileset_040: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_040[2 * 4] = {
+	0xc0, 0xc0,
+	0x42, 0xc0,
+	0x00, 0xc0,
+	0xc0, 0x40
+};
+
+// Tile room_tileset_041: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_041[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_042: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_042[2 * 4] = {
+	0xc0, 0x40,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_043: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_043[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_044: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_044[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_045: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_045[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_046: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_046[2 * 4] = {
+	0xc0, 0x40,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0x40, 0xc0
+};
+
+// Tile room_tileset_047: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_047[2 * 4] = {
+	0xc0, 0x80,
+	0xc0, 0x80,
+	0xc0, 0x80,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_048: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_048[2 * 4] = {
+	0x00, 0xc0,
+	0x40, 0x40,
+	0x40, 0xc0,
+	0x40, 0x80
+};
+
+// Tile room_tileset_049: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_049[2 * 4] = {
+	0xc0, 0xc0,
+	0x40, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_050: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_050[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_051: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_051[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_052: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_052[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0xc0,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_053: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_053[2 * 4] = {
+	0x80, 0xfc,
+	0x00, 0x54,
+	0xc0, 0x80,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_054: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_054[2 * 4] = {
+	0xa8, 0x00,
+	0x00, 0x00,
+	0x40, 0x80,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_055: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_055[2 * 4] = {
+	0x54, 0x00,
+	0xfc, 0xa8,
+	0xfc, 0x00,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_056: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_056[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_057: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_057[2 * 4] = {
+	0xc0, 0xc0,
+	0x40, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_058: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_058[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_059: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_059[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_060: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_060[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0x40,
+	0xc0, 0xc0,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_061: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_061[2 * 4] = {
+	0xc0, 0xc0,
+	0x40, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_062: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_062[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_063: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_063[2 * 4] = {
+	0xc0, 0x80,
+	0xc0, 0x80,
+	0xc0, 0x00,
+	0xc0, 0x80
+};
+
+// Tile room_tileset_064: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_064[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xa8,
+	0xfc, 0xa8
+};
+
+// Tile room_tileset_065: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_065[2 * 4] = {
+	0xa8, 0x00,
+	0x11, 0x03,
+	0x23, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_066: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_066[2 * 4] = {
+	0x00, 0x54,
+	0x03, 0x22,
+	0x03, 0x13,
+	0x03, 0x03
+};
+
+// Tile room_tileset_067: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_067[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0xfc,
+	0x54, 0xfc
+};
+
+// Tile room_tileset_068: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_068[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_069: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_069[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_070: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_070[2 * 4] = {
+	0xfc, 0xfc,
+	0xa8, 0xa8,
+	0xfc, 0x54,
+	0x00, 0x00
+};
+
+// Tile room_tileset_071: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_071[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0xfc
+};
+
+// Tile room_tileset_072: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_072[2 * 4] = {
+	0x00, 0xfc,
+	0x40, 0x54,
+	0xa8, 0x80,
+	0xfc, 0x40
+};
+
+// Tile room_tileset_073: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_073[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0xa8
+};
+
+// Tile room_tileset_074: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_074[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0xa8
+};
+
+// Tile room_tileset_075: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_075[2 * 4] = {
+	0xfc, 0x00,
+	0xa8, 0x80,
+	0x40, 0x54,
+	0x80, 0xfc
+};
+
+// Tile room_tileset_076: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_076[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xa8
+};
+
+// Tile room_tileset_077: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_077[2 * 4] = {
+	0xfc, 0x00,
+	0xa8, 0x11,
+	0x00, 0x33,
+	0x11, 0x33
+};
+
+// Tile room_tileset_078: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_078[2 * 4] = {
+	0x00, 0xfc,
+	0x22, 0x54,
+	0x33, 0x00,
+	0x33, 0x22
+};
+
+// Tile room_tileset_079: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_079[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0xfc
+};
+
+// Tile room_tileset_080: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_080[2 * 4] = {
+	0xfc, 0xa8,
+	0xfc, 0xa8,
+	0xfc, 0xa8,
+	0x00, 0x00
+};
+
+// Tile room_tileset_081: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_081[2 * 4] = {
+	0x13, 0x03,
+	0x03, 0x23,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_082: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_082[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_083: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_083[2 * 4] = {
+	0x54, 0xfc,
+	0x54, 0xfc,
+	0x54, 0xfc,
+	0x00, 0x00
+};
+
+// Tile room_tileset_084: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_084[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xa8, 0x00
+};
+
+// Tile room_tileset_085: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_085[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xa8,
+	0xfc, 0xa8,
+	0x00, 0x00
+};
+
+// Tile room_tileset_086: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_086[2 * 4] = {
+	0x11, 0x03,
+	0x23, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_087: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_087[2 * 4] = {
+	0x54, 0xfc,
+	0x02, 0xfc,
+	0x00, 0xfc,
+	0x00, 0x54
+};
+
+// Tile room_tileset_088: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_088[2 * 4] = {
+	0xfc, 0xa8,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xa8
+};
+
+// Tile room_tileset_089: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_089[2 * 4] = {
+	0x80, 0x01,
+	0x00, 0x03,
+	0x01, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_090: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_090[2 * 4] = {
+	0x02, 0x40,
+	0x03, 0x00,
+	0x23, 0x02,
+	0x13, 0x03
+};
+
+// Tile room_tileset_091: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_091[2 * 4] = {
+	0x54, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0xfc
+};
+
+// Tile room_tileset_092: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_092[2 * 4] = {
+	0xfc, 0x00,
+	0xa8, 0x11,
+	0x00, 0x33,
+	0x11, 0x23
+};
+
+// Tile room_tileset_093: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_093[2 * 4] = {
+	0x33, 0x23,
+	0x23, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_094: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_094[2 * 4] = {
+	0x13, 0x33,
+	0x03, 0x13,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_095: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_095[2 * 4] = {
+	0x00, 0xfc,
+	0x22, 0x54,
+	0x33, 0x00,
+	0x13, 0x22
+};
+
+// Tile room_tileset_096: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_096[2 * 4] = {
+	0x40, 0x80,
+	0x00, 0x80,
+	0xa8, 0x11,
+	0xa8, 0x80
+};
+
+// Tile room_tileset_097: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_097[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x23, 0x03,
+	0x13, 0x33
+};
+
+// Tile room_tileset_098: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_098[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x13,
+	0x33, 0x23
+};
+
+// Tile room_tileset_099: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_099[2 * 4] = {
+	0x40, 0x80,
+	0x40, 0x00,
+	0x22, 0x54,
+	0x40, 0x54
+};
+
+// Tile room_tileset_100: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_100[2 * 4] = {
+	0x11, 0x33,
+	0xa8, 0x00,
+	0xa8, 0x22,
+	0xa8, 0x22
+};
+
+// Tile room_tileset_101: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_101[2 * 4] = {
+	0x33, 0x33,
+	0x00, 0x00,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_102: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_102[2 * 4] = {
+	0x23, 0x03,
+	0x00, 0x00,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_103: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_103[2 * 4] = {
+	0x03, 0x02,
+	0x00, 0x54,
+	0x01, 0x54,
+	0x01, 0x54
+};
+
+// Tile room_tileset_104: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_104[2 * 4] = {
+	0xfc, 0x01,
+	0xfc, 0x01,
+	0xfc, 0xa8,
+	0xfc, 0xa8
+};
+
+// Tile room_tileset_105: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_105[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x01, 0x03
+};
+
+// Tile room_tileset_106: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_106[2 * 4] = {
+	0x03, 0x23,
+	0x03, 0x23,
+	0x03, 0x03,
+	0x03, 0x02
+};
+
+// Tile room_tileset_107: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_107[2 * 4] = {
+	0x02, 0xfc,
+	0x02, 0xfc,
+	0x54, 0xfc,
+	0x54, 0xfc
+};
+
+// Tile room_tileset_108: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_108[2 * 4] = {
+	0x11, 0x03,
+	0x11, 0x03,
+	0x11, 0x03,
+	0x11, 0x42
+};
+
+// Tile room_tileset_109: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_109[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0xc0, 0xc0,
+	0xd4, 0xfc
+};
+
+// Tile room_tileset_110: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_110[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0xc0, 0x81,
+	0xfc, 0xc0
+};
+
+// Tile room_tileset_111: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_111[2 * 4] = {
+	0x03, 0x22,
+	0x03, 0x22,
+	0x03, 0x22,
+	0x03, 0x22
+};
+
+// Tile room_tileset_112: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_112[2 * 4] = {
+	0xfc, 0x40,
+	0xfc, 0x00,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_113: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_113[2 * 4] = {
+	0x03, 0x03,
+	0x01, 0x03,
+	0xa8, 0x00,
+	0xa8, 0x00
+};
+
+// Tile room_tileset_114: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_114[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x02,
+	0x00, 0x54,
+	0x00, 0x54
+};
+
+// Tile room_tileset_115: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_115[2 * 4] = {
+	0x80, 0xfc,
+	0x00, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_116: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_116[2 * 4] = {
+	0xa8, 0x22,
+	0xa8, 0x22,
+	0xa8, 0x22,
+	0xfc, 0x54
+};
+
+// Tile room_tileset_117: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_117[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_118: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_118[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_119: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_119[2 * 4] = {
+	0x01, 0x54,
+	0x01, 0x54,
+	0x01, 0x54,
+	0xa8, 0xfc
+};
+
+// Tile room_tileset_120: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_120[2 * 4] = {
+	0xfc, 0x40,
+	0xa8, 0x80,
+	0x40, 0x54,
+	0x00, 0xfc
+};
+
+// Tile room_tileset_121: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_121[2 * 4] = {
+	0x00, 0x03,
+	0xfc, 0x01,
+	0xfc, 0xa8,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_122: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_122[2 * 4] = {
+	0x03, 0x00,
+	0x02, 0xfc,
+	0x54, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_123: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_123[2 * 4] = {
+	0x80, 0xfc,
+	0x40, 0x54,
+	0xa8, 0x80,
+	0xfc, 0x00
+};
+
+// Tile room_tileset_124: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_124[2 * 4] = {
+	0x11, 0xc0,
+	0x11, 0xd4,
+	0x11, 0xd4,
+	0x11, 0x42
+};
+
+// Tile room_tileset_125: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_125[2 * 4] = {
+	0xfc, 0xfc,
+	0xa8, 0xfc,
+	0xfc, 0xfc,
+	0xa8, 0x00
+};
+
+// Tile room_tileset_126: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_126[2 * 4] = {
+	0xfc, 0xe8,
+	0xa8, 0xfc,
+	0xfc, 0xfc,
+	0x00, 0xfc
+};
+
+// Tile room_tileset_127: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_127[2 * 4] = {
+	0x81, 0x22,
+	0x81, 0x22,
+	0x81, 0x22,
+	0x81, 0x22
+};
+
+// Tile room_tileset_128: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_128[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0xc0,
+	0x00, 0xc0
+};
+
+// Tile room_tileset_129: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_129[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0xc0, 0x03,
+	0x8b, 0x03
+};
+
+// Tile room_tileset_130: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_130[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_131: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_131[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_132: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_132[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_133: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_133[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_134: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_134[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x03, 0xc0,
+	0x03, 0x47
+};
+
+// Tile room_tileset_135: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_135[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0xc0, 0x00,
+	0xc0, 0x00
+};
+
+// Tile room_tileset_136: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_136[2 * 4] = {
+	0xc0, 0xc0,
+	0xc0, 0x03,
+	0x81, 0x80,
+	0x81, 0x40
+};
+
+// Tile room_tileset_137: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_137[2 * 4] = {
+	0xc0, 0xc0,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x42, 0x42
+};
+
+// Tile room_tileset_138: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_138[2 * 4] = {
+	0xc0, 0xc0,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x42, 0x42
+};
+
+// Tile room_tileset_139: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_139[2 * 4] = {
+	0xc0, 0xc0,
+	0x03, 0xc0,
+	0x40, 0x42,
+	0x00, 0x42
+};
+
+// Tile room_tileset_140: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_140[2 * 4] = {
+	0x11, 0x42,
+	0x11, 0x03,
+	0x11, 0x03,
+	0x11, 0x03
+};
+
+// Tile room_tileset_141: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_141[2 * 4] = {
+	0xd4, 0xfc,
+	0xc0, 0xe8,
+	0x42, 0xe8,
+	0x42, 0xe8
+};
+
+// Tile room_tileset_142: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_142[2 * 4] = {
+	0xfc, 0xe8,
+	0xc0, 0xc0,
+	0x03, 0x03,
+	0x81, 0x03
+};
+
+// Tile room_tileset_143: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_143[2 * 4] = {
+	0x81, 0x22,
+	0x03, 0x22,
+	0x03, 0x22,
+	0x03, 0x22
+};
+
+// Tile room_tileset_144: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_144[2 * 4] = {
+	0x00, 0xc5,
+	0x00, 0x81,
+	0x00, 0x03,
+	0x00, 0x03
+};
+
+// Tile room_tileset_145: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_145[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_146: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_146[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_147: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_147[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x13,
+	0x03, 0x23,
+	0x13, 0x03
+};
+
+// Tile room_tileset_148: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_148[2 * 4] = {
+	0x23, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x13
+};
+
+// Tile room_tileset_149: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_149[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x23, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_150: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_150[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_151: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_151[2 * 4] = {
+	0xca, 0x00,
+	0x42, 0x00,
+	0x03, 0x00,
+	0x03, 0x00
+};
+
+// Tile room_tileset_152: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_152[2 * 4] = {
+	0x81, 0x22,
+	0x81, 0x33,
+	0x81, 0x62,
+	0x81, 0x62
+};
+
+// Tile room_tileset_153: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_153[2 * 4] = {
+	0x42, 0x42,
+	0x40, 0x42,
+	0x22, 0x42,
+	0x13, 0x11
+};
+
+// Tile room_tileset_154: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_154[2 * 4] = {
+	0x42, 0x02,
+	0x42, 0x11,
+	0x02, 0x62,
+	0x11, 0x42
+};
+
+// Tile room_tileset_155: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_155[2 * 4] = {
+	0x22, 0x42,
+	0x02, 0x42,
+	0x02, 0x42,
+	0x02, 0x42
+};
+
+// Tile room_tileset_156: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_156[2 * 4] = {
+	0x11, 0x03,
+	0x11, 0x03,
+	0x11, 0x03,
+	0x11, 0x03
+};
+
+// Tile room_tileset_157: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_157[2 * 4] = {
+	0x42, 0xc0,
+	0x03, 0x42,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_158: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_158[2 * 4] = {
+	0x81, 0x03,
+	0x81, 0x03,
+	0x81, 0x03,
+	0x81, 0x03
+};
+
+// Tile room_tileset_159: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_159[2 * 4] = {
+	0x03, 0x22,
+	0x03, 0x22,
+	0x03, 0x22,
+	0x03, 0x22
+};
+
+// Tile room_tileset_160: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_160[2 * 4] = {
+	0x00, 0x03,
+	0x00, 0x03,
+	0x00, 0x81,
+	0x00, 0xc5
+};
+
+// Tile room_tileset_161: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_161[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_162: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_162[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x13,
+	0x03, 0x23,
+	0x03, 0x03
+};
+
+// Tile room_tileset_163: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_163[2 * 4] = {
+	0x23, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_164: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_164[2 * 4] = {
+	0x03, 0x23,
+	0x13, 0x03,
+	0x23, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_165: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_165[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_166: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_166[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_167: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_167[2 * 4] = {
+	0x03, 0x00,
+	0x03, 0x00,
+	0x42, 0x00,
+	0xca, 0x00
+};
+
+// Tile room_tileset_168: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_168[2 * 4] = {
+	0x81, 0x62,
+	0x81, 0x62,
+	0x81, 0x62,
+	0x81, 0x62
+};
+
+// Tile room_tileset_169: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_169[2 * 4] = {
+	0x42, 0x22,
+	0x42, 0x11,
+	0x02, 0x62,
+	0x11, 0x42
+};
+
+// Tile room_tileset_170: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_170[2 * 4] = {
+	0x62, 0x42,
+	0x40, 0x42,
+	0x22, 0x42,
+	0x13, 0x40
+};
+
+// Tile room_tileset_171: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_171[2 * 4] = {
+	0x02, 0x42,
+	0x02, 0x42,
+	0x02, 0x42,
+	0x02, 0x42
+};
+
+// Tile room_tileset_172: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_172[2 * 4] = {
+	0x11, 0x23,
+	0x00, 0x33,
+	0xa8, 0x11,
+	0xfc, 0x00
+};
+
+// Tile room_tileset_173: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_173[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x23, 0x03,
+	0x33, 0x23
+};
+
+// Tile room_tileset_174: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_174[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x13,
+	0x13, 0x33
+};
+
+// Tile room_tileset_175: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_175[2 * 4] = {
+	0x13, 0x22,
+	0x33, 0x00,
+	0x22, 0x54,
+	0x00, 0xfc
+};
+
+// Tile room_tileset_176: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_176[2 * 4] = {
+	0x00, 0xc0,
+	0x00, 0xc0,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_177: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_177[2 * 4] = {
+	0x8b, 0x03,
+	0xc0, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_178: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_178[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_179: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_179[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_180: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_180[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_181: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_181[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_182: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_182[2 * 4] = {
+	0x03, 0x47,
+	0x03, 0xc0,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_183: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_183[2 * 4] = {
+	0xc0, 0x00,
+	0xc0, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_184: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_184[2 * 4] = {
+	0x81, 0x22,
+	0x81, 0x91,
+	0xc0, 0x03,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_185: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_185[2 * 4] = {
+	0x62, 0x42,
+	0x33, 0x33,
+	0x03, 0x03,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_186: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_186[2 * 4] = {
+	0x42, 0x22,
+	0x33, 0x33,
+	0x03, 0x03,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_187: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_187[2 * 4] = {
+	0x02, 0x42,
+	0x00, 0x42,
+	0x03, 0xc0,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_188: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_188[2 * 4] = {
+	0xfc, 0xa8,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_189: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_189[2 * 4] = {
+	0x11, 0x33,
+	0x00, 0x33,
+	0xa8, 0x11,
+	0xfc, 0x00
+};
+
+// Tile room_tileset_190: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_190[2 * 4] = {
+	0x33, 0x22,
+	0x33, 0x00,
+	0x22, 0x54,
+	0x00, 0xfc
+};
+
+// Tile room_tileset_191: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_191[2 * 4] = {
+	0x54, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_192: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_192[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xa8,
+	0xfc, 0x00
+};
+
+// Tile room_tileset_193: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_193[2 * 4] = {
+	0xa8, 0x00,
+	0x00, 0x40,
+	0x00, 0xc5,
+	0x40, 0x8b
+};
+
+// Tile room_tileset_194: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_194[2 * 4] = {
+	0x00, 0x54,
+	0x80, 0x00,
+	0xca, 0x00,
+	0x47, 0x80
+};
+
+// Tile room_tileset_195: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_195[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0x54, 0xfc,
+	0x00, 0xfc
+};
+
+// Tile room_tileset_196: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_196[2 * 4] = {
+	0x80, 0x00,
+	0x00, 0x03,
+	0x40, 0x81,
+	0x11, 0xc0
+};
+
+// Tile room_tileset_197: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_197[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0xc0, 0xc0
+};
+
+// Tile room_tileset_198: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_198[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0xc0, 0x81
+};
+
+// Tile room_tileset_199: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_199[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x02,
+	0x03, 0x80,
+	0x42, 0x22
+};
+
+// Tile room_tileset_200: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_200[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0xc0, 0xc0,
+	0x62, 0x62
+};
+
+// Tile room_tileset_201: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_201[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_202: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_202[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0xc0,
+	0x03, 0xc5
+};
+
+// Tile room_tileset_203: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_203[2 * 4] = {
+	0x00, 0x40,
+	0x03, 0x00,
+	0x81, 0x02,
+	0x81, 0x02
+};
+
+// Tile room_tileset_204: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_204[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33
+};
+
+// Tile room_tileset_205: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_205[2 * 4] = {
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc,
+	0xfc, 0xfc
+};
+
+// Tile room_tileset_206: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_206[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_207: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_207[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33,
+	0x33, 0x33
+};
+
+// Tile room_tileset_208: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_208[2 * 4] = {
+	0xa8, 0x00,
+	0x00, 0x40,
+	0x00, 0x03,
+	0x00, 0x03
+};
+
+// Tile room_tileset_209: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_209[2 * 4] = {
+	0xc5, 0x03,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x03, 0x13
+};
+
+// Tile room_tileset_210: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_210[2 * 4] = {
+	0x03, 0xca,
+	0x03, 0x03,
+	0x23, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_211: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_211[2 * 4] = {
+	0x00, 0x54,
+	0x80, 0x00,
+	0x03, 0x00,
+	0x03, 0x00
+};
+
+// Tile room_tileset_212: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_212[2 * 4] = {
+	0x11, 0xc0,
+	0x11, 0xc0,
+	0x00, 0x00,
+	0x00, 0x03
+};
+
+// Tile room_tileset_213: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_213[2 * 4] = {
+	0x33, 0x33,
+	0x33, 0x33,
+	0x00, 0x00,
+	0x03, 0x03
+};
+
+// Tile room_tileset_214: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_214[2 * 4] = {
+	0x33, 0x81,
+	0x33, 0xc0,
+	0x00, 0x00,
+	0x03, 0x03
+};
+
+// Tile room_tileset_215: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_215[2 * 4] = {
+	0x91, 0x80,
+	0x62, 0x22,
+	0x00, 0x00,
+	0x03, 0x02
+};
+
+// Tile room_tileset_216: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_216[2 * 4] = {
+	0x62, 0x62,
+	0x62, 0x62,
+	0x00, 0x00,
+	0x03, 0x03
+};
+
+// Tile room_tileset_217: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_217[2 * 4] = {
+	0xc0, 0xc0,
+	0x33, 0x33,
+	0x00, 0x00,
+	0x03, 0xc0
+};
+
+// Tile room_tileset_218: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_218[2 * 4] = {
+	0xc0, 0xc5,
+	0x62, 0xc5,
+	0x00, 0x00,
+	0x81, 0x03
+};
+
+// Tile room_tileset_219: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_219[2 * 4] = {
+	0x81, 0x02,
+	0x81, 0x00,
+	0x00, 0x00,
+	0x03, 0x00
+};
+
+// Tile room_tileset_220: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_220[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_221: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_221[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_222: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_222[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_223: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_223[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_224: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_224[2 * 4] = {
+	0x00, 0x03,
+	0x00, 0x03,
+	0x00, 0x03,
+	0x00, 0x03
+};
+
+// Tile room_tileset_225: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_225[2 * 4] = {
+	0x03, 0x23,
+	0x13, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_226: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_226[2 * 4] = {
+	0x13, 0x03,
+	0x23, 0x03,
+	0x03, 0x03,
+	0x03, 0x03
+};
+
+// Tile room_tileset_227: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_227[2 * 4] = {
+	0x03, 0x00,
+	0x03, 0x00,
+	0x03, 0x00,
+	0x03, 0x00
+};
+
+// Tile room_tileset_228: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_228[2 * 4] = {
+	0x01, 0xc0,
+	0x11, 0x62,
+	0x11, 0x62,
+	0x11, 0x62
+};
+
+// Tile room_tileset_229: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_229[2 * 4] = {
+	0xc0, 0x81,
+	0x33, 0x62,
+	0x33, 0x62,
+	0x33, 0x62
+};
+
+// Tile room_tileset_230: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_230[2 * 4] = {
+	0xc0, 0x81,
+	0x33, 0x81,
+	0x33, 0x81,
+	0x33, 0x91
+};
+
+// Tile room_tileset_231: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_231[2 * 4] = {
+	0x03, 0x02,
+	0x03, 0x02,
+	0x03, 0x02,
+	0x33, 0x22
+};
+
+// Tile room_tileset_232: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_232[2 * 4] = {
+	0xc0, 0xc0,
+	0x33, 0x33,
+	0xc0, 0xc0,
+	0x33, 0x33
+};
+
+// Tile room_tileset_233: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_233[2 * 4] = {
+	0xc0, 0x33,
+	0x62, 0x33,
+	0xc0, 0x33,
+	0x62, 0x33
+};
+
+// Tile room_tileset_234: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_234[2 * 4] = {
+	0xc0, 0x81,
+	0x91, 0x81,
+	0x91, 0x81,
+	0x91, 0x81
+};
+
+// Tile room_tileset_235: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_235[2 * 4] = {
+	0x03, 0x02,
+	0x03, 0x02,
+	0x03, 0x02,
+	0x03, 0x00
+};
+
+// Tile room_tileset_236: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_236[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_237: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_237[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_238: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_238[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_239: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_239[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_240: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_240[2 * 4] = {
+	0x00, 0xc5,
+	0x00, 0xc0,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_241: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_241[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_242: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_242[2 * 4] = {
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_243: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_243[2 * 4] = {
+	0xca, 0x00,
+	0xc0, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_244: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_244[2 * 4] = {
+	0x00, 0x00,
+	0x01, 0x03,
+	0x00, 0x03,
+	0x80, 0x00
+};
+
+// Tile room_tileset_245: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_245[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00
+};
+
+// Tile room_tileset_246: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_246[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00
+};
+
+// Tile room_tileset_247: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_247[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x02,
+	0x03, 0x02,
+	0x00, 0x00
+};
+
+// Tile room_tileset_248: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_248[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00
+};
+
+// Tile room_tileset_249: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_249[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00
+};
+
+// Tile room_tileset_250: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_250[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x03,
+	0x03, 0x03,
+	0x00, 0x00
+};
+
+// Tile room_tileset_251: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_251[2 * 4] = {
+	0x00, 0x00,
+	0x03, 0x02,
+	0x03, 0x02,
+	0x00, 0x40
+};
+
+// Tile room_tileset_252: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_252[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_253: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_253[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_254: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_254[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
+// Tile room_tileset_255: 4x4 pixels, 2x4 bytes.
+const u8 room_tileset_255[2 * 4] = {
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00,
+	0x00, 0x00
+};
+
